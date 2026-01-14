@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: schema/products.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: schema/indexs.sql
+      relativeToChangeLogFile: true
