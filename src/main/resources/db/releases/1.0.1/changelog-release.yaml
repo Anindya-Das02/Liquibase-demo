@@ -1,13 +1,13 @@
 databaseChangeLog:
   - include:
-      file: schema/products.sql
+      file: schema/create-types.sql
       relativeToChangeLogFile: true
   - include:
-      file: schema/indexs.sql
+      file: schema/add-column.sql
       relativeToChangeLogFile: true
   - changeSet:
-      id: tag-1.0.0
+      id: tag-1.0.1
       author: anindya
       changes:
         - tagDatabase:
-            tag: 1.0.0
+            tag: 1.0.1

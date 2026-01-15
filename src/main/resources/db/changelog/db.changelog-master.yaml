@@ -1,3 +1,5 @@
 databaseChangeLog:
   - include:
       file: db/releases/1.0.0/changelog-release.yaml
+  - include:
+      file: db/releases/1.0.1/changelog-release.yaml
